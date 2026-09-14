@@ -11,8 +11,9 @@ and client-specific sensor adapters.
 ## Build and run
 
 BoogieDodgeLite is now available as a small static library plus a console host
-demo. The host owns sensing and movement; `BoogieDodgeLite::Controller` owns
-the solver state between frames.
+demo. The host owns sensing and movement; `FrameSource` supplies snapshots,
+`MovementSink` receives decisions, and `Application` owns the loop while
+`BoogieDodgeLite::Controller` owns solver state between frames.
 
 ```text
 cmake -S . -B build
