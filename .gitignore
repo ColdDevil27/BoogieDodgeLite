@@ -1,0 +1,23 @@
+# Build outputs
+build/
+out/
+*.o
+*.obj
+*.exe
+*.dll
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Local configuration and secrets
+.env
+.env.*
+*.pem
+*.key
