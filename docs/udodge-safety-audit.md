@@ -1,4 +1,4 @@
-# UDodge safety work — 2026-09-06
+# BoogieDodgeLite safety work — 2026-09-06
 
 Inspected bomb capture, ownership, filtering, solver admission, and movement
 execution after reports of missed fast bombs and absent orange circles. No live

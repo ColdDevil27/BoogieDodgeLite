@@ -1,6 +1,6 @@
-# UDodge
+# BoogieDodgeLite
 
-Standalone host-testable core for the auto-dodge planner.
+Standalone host-testable auto-dodge planner core.
 
 This repository contains the plain-data danger model, temporal collision checks,
 grid pathfinder, timed escape planner, worker handoff, and the small policy
@@ -31,6 +31,6 @@ step against its own authoritative occupancy and collision floors.
 
 ## Source provenance
 
-Extracted from the `internal` auto-dodge implementation in
-`realm-engine-client`. The audit and timed-escape design notes are included in
+BoogieDodgeLite is extracted from the `internal` auto-dodge implementation of
+the original client. The audit and timed-escape design notes are included in
 `docs/`.

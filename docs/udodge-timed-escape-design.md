@@ -1,4 +1,4 @@
-# UDodge timed escape — integrating the Spacetime planner
+# BoogieDodgeLite timed escape — integrating the Spacetime planner
 
 Design for stages 2 and 3 of the PR 60 adoption (see `udodge-safety-audit.md`
 for the record of what shipped). Stage 1 folded the fork's sensor and capture
